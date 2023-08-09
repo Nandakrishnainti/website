@@ -1,0 +1,113 @@
+body{
+    background-image:url(./bgimg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: wheat;
+}
+header{
+    display: flex;
+    background-color:rgb(105, 103, 103);
+    height: 100px;
+    margin: 30px;
+ 
+}
+header a{
+    margin-top: 1%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 30px;
+
+
+}
+nav ul li a{
+    padding: 10xp;
+    color:white;
+    font-size: large;
+    text-decoration: none;
+   
+}
+.grid{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#About{
+    text-align: center;
+ font-size: 126%;
+ color: white;
+
+    
+
+
+}
+.m img{
+    border-radius: 2%;
+}
+section H2{
+    margin-left: 45%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid1{
+display: grid;
+display: flex;
+
+}
+#menu{
+
+    text-align: center;
+    color: black;
+    
+}
+.item4{
+    padding-left:70px;
+    border-radius: 25px;
+    
+
+}
+.item3{
+    padding-left:70px;
+}
+.item2{
+    padding-left:70px;
+    border-radius: 50%;
+
+}
+.item1{
+    padding-left:5px;
+   border-radius: 50px;
+}
+.G{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 4%;
+}
+.S{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 4%;
+}
+
+.C{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 4%;
+}
+
+.P{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 4%;
+}
+#move{
+    width: 100%;
+    height: 700px;
+    border-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+    margin: 1.5%;
+}
+#move .slides{
+    display: inline-block;
+}
